@@ -1,0 +1,330 @@
+/* laptop */
+@media (max-witdh: 1366px) {
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  /* navbar */
+
+  .navbar {
+    position: relative;
+  }
+  .nav_menu .nav {
+    display: block;
+    background-color: rgb(34, 33, 33);
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    transition: 0.7s;
+    text-align: center;
+  }
+
+  .nav_menu .nav.on {
+    right: 0;
+    transition: 0.5s;
+  }
+
+  .nav_menu .nav-item {
+    margin-top: 50px;
+  }
+
+  #humberger {
+    display: inline-block;
+    position: absolute;
+    transition: 0.5s;
+    right: 25px;
+  }
+
+  .color {
+    position: absolute;
+    left: 30px;
+  }
+
+  /* home */
+  #home .container {
+    height: auto;
+    width: 100%;
+  }
+  #home h2 {
+    font-size: 18px;
+  }
+
+  #home h1 {
+    font-size: 25px;
+  }
+
+  .text-3 {
+    font-size: 18px;
+  }
+
+  .typing {
+    font-size: 25px;
+  }
+
+  .btn-cv {
+    font-size: 10px;
+  }
+
+  .home-text {
+    position: absolute;
+    top: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bg-img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+  }
+
+  .bg-circle {
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .img-by {
+    height: 350px;
+    width: 340px;
+    position: absolute;
+    right: 19px;
+    bottom: -13px;
+  }
+
+  /* about */
+
+  #about {
+    height: auto;
+    width: 100%;
+  }
+
+  .border_bottom {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+
+  .circle-border {
+    height: 150px;
+    width: 150px;
+  }
+
+  .bayu-img {
+    height: 130px;
+    width: 130px;
+  }
+
+  #about h1 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #about p {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  /* skilll */
+
+  #skill {
+    height: auto;
+    width: 100%;
+  }
+
+  #skill h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .text-skill {
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .ks {
+    margin-top: 15px;
+  }
+
+  #skill p {
+    font-size: 12px;
+  }
+
+  #skill h1 {
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+
+  /* portfolio */
+  #portfolio {
+    height: auto;
+  }
+
+  #portfolio h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .text-start {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .kartu-port {
+    height: 370px;
+    width: 350px;
+    cursor: pointer;
+  }
+
+  .kartu-port h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 5px;
+  }
+
+  .img-port {
+    height: 300px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .kartu-port {
+    height: 450px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  /* * education */
+
+  .edu {
+    height: auto;
+    width: 100%;
+    border-right: none;
+    border-bottom: 3px solid var(--pr-color);
+    padding-bottom: 60px;
+  }
+
+  .text-edu h6 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .text-edu p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .pend-txt {
+    margin: 0 !important;
+  }
+
+  .text-pend {
+    margin: 0;
+  }
+  .text-pend h1 {
+    font-size: 12px;
+  }
+  .text-pend h2 {
+    font-size: 20px;
+  }
+  .text-pend h3 {
+    font-size: 18px;
+  }
+
+  /* contac */
+
+  #kontak h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .cnt-me h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .cnt-me h3 {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .contact {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .email h5 {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+
+/* smartphone */
+@media screen and (max-width: 578px) {
+  .navbar {
+    position: relative;
+  }
+
+  .nav_menu .nav {
+    display: block;
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    height: 100vh;
+    top: -1500%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.7s;
+    text-align: center;
+    opacity: 0.958888888;
+  }
+
+  .nav_menu .nav.on {
+    top: 0;
+    transition: 0.7s;
+  }
+
+  /* skilll */
+  .card-skill {
+    display: none;
+  }
+  .bar .progress-line {
+    margin-left: 10px;
+  }
+
+  .text-skill {
+    margin-left: 10px;
+  }
+
+  #skill .text-start {
+    padding: 20px;
+  }
+  .img-port {
+    height: 250px;
+  }
+}
